@@ -126,6 +126,66 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.project-image {
+  position: relative;
+  max-width: 280%; /* Adjust as needed */
+  height: auto; /* This will maintain the aspect ratio */
+}
+.project-topic {
+  position: relative;
+  font-size: 25px; /* Adjust font size */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: #9d1c1c; /* Adjust text color */
+}
+/* .skills-section .mb-2 span {
+  display: block;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-row .col-md-3 {
+  flex-basis: calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  margin-bottom: 10px;
+} */
+
+.flex-container{
+  width:235%;
+  height:fit-content;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  }
+  
+  .flex-box{
+  width:180px;
+  /* flex-grow: 1; */
+  height:40px;
+  color: #fff;
+  background-color: #007bff;
+  font-size:14px;
+  text-align:center;
+  line-height: 40px;
+  margin:2px;
+  border-radius: 5px;
+  flex-shrink: 1;
+  
+  }
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
